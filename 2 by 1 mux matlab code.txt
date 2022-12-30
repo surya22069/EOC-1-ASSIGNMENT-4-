@@ -1,0 +1,9 @@
+%%
+disp('2 by 1 mux')
+d0=input('in 0 or 1:');
+d1=input('in 0 or 1:');
+s0=input('select line in 0 or 1:');
+a=not(s0);
+b=and(a,d0);
+c=and(d1,s0);
+out=or(b,c)
